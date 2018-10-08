@@ -1,4 +1,13 @@
 body{
 
     background-color: green;
+
+
+}
+
+ul, li{
+
+    display: inline;
+    background-color: black;
+    color: white;
 }
