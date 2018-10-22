@@ -2,3 +2,26 @@ body{
 
     background-color: navajowhite;
 }
+title{
+
+    display
+
+
+}
+ul, li{
+
+    display: inline;
+    text-decoration-color: black;
+    background: grey;
+}
+a{
+    background-color: white;
+    transition: all 0.5s;
+    padding:2px;
+}
+
+a:hover{
+
+        background-color: deeppink;
+
+}
