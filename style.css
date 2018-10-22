@@ -13,6 +13,7 @@ ul, li{
     display: inline;
     text-decoration-color: black;
     background: grey;
+    padding:2px;
 }
 a{
     background-color: white;
