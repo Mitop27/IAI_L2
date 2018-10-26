@@ -1,4 +1,47 @@
-body{
 
+/* ////////////////////////////// index.html \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+body{
     background-color: navajowhite;
 }
+
+.foto{
+    width: 100%;
+    border: 10px solid saddlebrown;
+    border-radius: 5px;
+}
+
+tytul{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 300%;
+}
+
+overwiev{
+    text-align: justify;
+}
+
+ul, li{
+
+    display: inline;
+    background: saddlebrown;
+    padding:2px;
+
+    font-weight: bold;
+
+}
+a{
+    background-color: white;
+    transition: all 0.5s;
+    padding:2px;
+}
+
+a:hover{
+
+        background-color: red;
+
+}
+
+
+
