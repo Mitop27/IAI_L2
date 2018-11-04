@@ -8,3 +8,11 @@ body{
     margin-top: 5px;
     margin-left: 15px;
 }
+
+.valid{
+    border: solid 5px red;
+}
+
+.invalid{
+    border: solid 5px green;
+}

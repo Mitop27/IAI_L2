@@ -47,6 +47,9 @@
         <textarea id="description" name="description" cols="20" rows="3" required></textarea><br>
         <label for="age">Age</label><br>
         <input id="age" type="number" name="age" min="18" max="120"/><br>
+        <div class="age_valid">
+
+        </div>
 
         <label for="maritial">Maritial</label>><br>
         <select id="maritial" name="Maritial" required>
@@ -60,7 +63,7 @@
         </div>
 
         <div class="buttons">
-        <button type="button" class="btn btn-primary mb-2 send">Submit</button>
+        <button type="button" class="send">Submit</button>
         <button type="button" class="btn btn-danger mb-2 cancel">Clear</button>
         </div>
 
@@ -73,6 +76,45 @@
 
 
 
-<script src="validator.js" type="text/javascript"></script>
+
+<script>
+        let send=document.querySelector(".send");
+        let cancel=document.querySelector(".clear");
+
+        send.addEventListener("click", valid_f());
+
+
+function add_class(element, class_name){
+element.classList.add(class_name);
+}
+function remove_class(element, class_name){
+element.classList.remove(class_name);
+}
+
+/* //////////////////////////////////////////// */
+
+function valid_f(){
+
+let name = document.querySelector("#name");
+let age = document.querySelector("#age");
+let surname = document.querySelector("#surname");
+
+let name_v = name.value;
+let age_v = age.value;
+let surname_v = surname.value;
+
+if(age_v==='' || isNaN(age_v) || age_v < 1 || age_v > 125){
+add_class(age, "invalid");
+document.querySelector('.age_valid').innerHTML="Wrong data!";
+
+}
+else{
+remove_class(age, 'invalid');
+add_class(age, 'valid');
+document.querySelector('.age_valid').innerHTML="Data is correct";
+}
+}
+/*src="validator.js" type="text/javascript">*/
+</script>
 </body>
 </html>
