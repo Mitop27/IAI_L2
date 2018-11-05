@@ -9,10 +9,15 @@ body{
     margin-left: 15px;
 }
 
-.valid{
+.invalid{
     border: solid 5px red;
 }
 
-.invalid{
+.valid{
     border: solid 5px green;
+}
+
+.valid_frame{
+    font-size: x-small;
+    font-style: italic;
 }
