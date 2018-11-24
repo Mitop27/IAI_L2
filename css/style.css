@@ -1,0 +1,78 @@
+
+/* ////////////////////////////// index.html \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+body{
+    background-color: LightSteelBlue;
+}
+
+.foto1{
+    width: 100%;
+    border: 10px solid DarkSlateBlue;
+    border-radius: 5px;
+
+}
+
+.foto2{
+    width: 100%;
+    border: 10px solid DarkSlateBlue;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.tytul{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 300%;
+}
+
+.podtytul{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: Navy;
+}
+
+p{
+    margin-left: 15px;
+    text-align: justify;
+}
+
+
+/* /////////////////// PASEK NAWIGACJI \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.navbar{
+    margin-top: 15px;
+}
+.navbar a{
+
+    background-color: steelblue;
+    transition: all 0.5s;
+    padding: 10px;
+    color: black;
+
+}
+
+.first{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.last{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a:hover{
+
+    background-color: DarkSlateBlue;
+
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+
