@@ -1,0 +1,73 @@
+body{
+
+    background-color: LightSteelBlue;
+
+}
+.formular {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.buttons{
+
+    margin-top: 10px;
+
+}
+
+.invalid{
+    border: solid 5px red;
+}
+
+.valid{
+    border: solid 5px green;
+}
+
+.valid_frame{
+    font-size: x-small;
+    font-style: italic;
+}
+
+.legend{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+
+/* /////////////////// PASEK NAWIGACJI \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.navbar{
+    margin-top: 5px;
+}
+.navbar a{
+
+    background-color: steelblue;
+    transition: all 0.5s;
+    padding: 10px;
+    color: black;
+
+}
+
+.first{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.last{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a:hover{
+
+    background-color: DarkSlateBlue;
+
+}
+
+a:link{
+    text-decoration: none;
+
+}
